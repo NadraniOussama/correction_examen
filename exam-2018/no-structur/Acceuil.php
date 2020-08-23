@@ -7,11 +7,12 @@ include "haut.php";
 require_once "data.php";
 
 ?>
-<div class ="main" align="center">
+<div class ="main">
 	<h1>Acceuil</h1>
-	
+	<div class="txt">
 	<p> Ceci et le site de la faculte tu peux voire tout les etudiants et changer des notes.
 	</p>
+	</div>
 </div>
 
 

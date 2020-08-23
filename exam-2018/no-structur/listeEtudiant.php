@@ -6,7 +6,7 @@ include "data.php";
 $etudiants = getEtudiants();
 include "haut.php";
 ?> 
-<div class="main" align="center" >
+<div class="main" >
 	<table border="1">
 		<tr>
 			<th>numero</th><th>Nom</th> <th>Prenom</th>
