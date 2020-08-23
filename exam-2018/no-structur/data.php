@@ -18,3 +18,12 @@ function getEtudiants(){
 	return  getCn()->query($sql)->fetchAll();
 };
 
+function getModules(){
+	$sql = "SELECT * from module";
+	return getCN()->query($sql)->fetchAll();
+}
+
+function setNote($cE,$cM,$note){
+	$sql = "INSERT  INTO note  values ($cE,$cM,$note)";
+	getCN()->exec($sql);
+}

@@ -13,7 +13,7 @@ include "haut.php";
 		</tr>
 	<?php for ( $i=0 ;$i<sizeof($etudiants); $i++) { #start boucle?>
 		<tr>
-			<td> <a href="modifNote.php?CodeE=<?=$etudiants['CodeE']?>"><?=$i?> </a></td> <td> <?=$etudiants[$i]['Nom']?> </td><td> <?=$etudiants[$i]	['Prénom']?> </td>
+			<td> <?=$i+1?> </td> <td> <?=$etudiants[$i]['Nom']?> </td><td> <?=$etudiants[$i]	['Prenom']?> </td>
 		</tr>
 	<?php } #end boocle ?>
 	</table>
