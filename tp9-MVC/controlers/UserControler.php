@@ -32,10 +32,9 @@ function User_connexionAction(array $d ){
 			
 
 			if(checkLogin([$_POST['user'],$_POST['password']])){
-				echo checkLogin([$_POST['user'],$_POST['password']]);
+				echo checkLogin+([$_POST['user'],$_POST['password']]);
 
 				// echo str(checkLogin([$_POST['user'],$_POST['password']]));
-				sleep(1);
 				echo $_POST['user'];
 				$_SESSION["user"] = $_POST["user"];
 				header("location: index.php?method=index&action=index");

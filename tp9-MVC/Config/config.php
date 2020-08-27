@@ -4,7 +4,7 @@
 
 //templates
 $config["templates_path"]="views/templates/";
-$config["active_template"]="template3.php";
+$config["active_template"]="template2.php";
 
 //database
 $config["database_server"]="localhost";
