@@ -1,6 +1,6 @@
 <h1>Rechercher des etudiants</h1>
 <br><br>
-<input type="text" name="rechercher" onchange="envoyerequet()">
+<input type="text" name="rechercher" onchange="getContinuation()">
 <img src="public/image/loupe/png">
 
 <?php require_once "views/vInner.php" ?>
