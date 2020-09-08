@@ -13,10 +13,11 @@ function ajaxAction(){
 		// something somthing
 	// }
 	$liste = getLike ($_POST['recherche']);
-	views('vInnerListe',["$etudiants"=>$liste]);
+	views('vInnerListe',["$etudiants"=>$liste,"taile"=>size(getListe())]);
 }
 function listeAction(){
-	views("vListe"["etudiants"=>getListe()]);
+	$liste =getListe(); 
+	views("vListe"["etudiants"=>$liste,"taile" => size($liste)]);
 }
 function supprimerAction (){
 	if(!isset($_GET['Code'])){
