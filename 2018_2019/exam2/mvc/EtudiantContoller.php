@@ -9,11 +9,9 @@ updateEtudiant
 
 
 function ajaxAction(){
-	// if($_SERVER["REQUEST_METHODE"] == "POST"){
-		// something somthing
-	// }
-	$liste = getLike ($_POST['recherche']);
-	views('vInnerListe',["$etudiants"=>$liste,"taile"=>size(getListe())]);
+	$liste = getLike ($_GET['recherche']);
+	$taile = size(getListe());
+	require 'Views/vInner.php';
 }
 function listeAction(){
 	$liste =getListe(); 

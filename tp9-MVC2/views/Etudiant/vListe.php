@@ -14,7 +14,7 @@
 	 					<hr>
 	 <center>
 	  <form action="index.php?module=etudiant&action=listeAjax" method="post">
-	 	<b>Filière: </b><select   name="codeF" onChange="getStudentWithAjax('index.php?module=etudiant&action=listeAjax&codeF='+this.value, 'zoneAjax')"> 
+	 	<b>Filière: </b><select   name="codeF" onchange="getStudentWithAjax('index.php?module=etudiant&action=listeAjax&codeF='+this.value, 'zoneAjax')"> 
 	 		<!-- "getStudentWithAjax('index.php?module=etudiant&action=listeAjax&codeF=' + this.value, 'zoneAjax')"  alertTest-->
 
     	<option value=""  >toute les filieres</option>
