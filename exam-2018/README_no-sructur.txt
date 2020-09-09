@@ -4,7 +4,7 @@ haut.php
 			|->$month["lang"] = array() // array of months in this language
 			|->$jour["lang"]  = array() // array of days of the week in this language
 			|-> getdate return key array
-			|->return
+			|->return string
 		|->intantiate css from cookies
 	|-> html : <!doctype html> <html>
 		|->header

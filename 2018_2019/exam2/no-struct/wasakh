@@ -1,0 +1,11 @@
+data 
+	Etudiant(CodeE,Nom,Prenom)
+	getConn() return PDO
+	getEtudiant	return []
+
+vliste.php
+	getEtudiant
+	ajax filter onchange
+	<div class="zoneAjax">
+		vInner.php
+	</div>
