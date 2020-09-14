@@ -4,7 +4,7 @@ require_once "EtudiantController.php";
 require_once "EtudiantModels.php";
 try{
 	session_start();
-	$action =(isset($_POST['action']))? $_POST['action'] :"index";
+	$action =(isset($_GET['action']))? $_GET['action'] :"index";
 	$action .="Action";
 	// if(!isset($_SESSION['login'])){
 	// 	$action = "connAction";

@@ -17,7 +17,9 @@
 </div>
 
 <div class="main">
+
 <?=$page ?>
+
 </div>
 <hr color="red">
 <div class="bas"  align="center"> 
