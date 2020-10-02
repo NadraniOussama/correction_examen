@@ -1,3 +1,4 @@
+REMINDER : mvc is always better use mvc pls
 haut.php
 	|->php 
 		|->create_function aficherDate($language) return string :
